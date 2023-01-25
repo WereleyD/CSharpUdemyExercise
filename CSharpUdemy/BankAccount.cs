@@ -18,7 +18,7 @@ namespace CSharpUdemy
         {
             AccountName = name;
             AccountNumber = accountNumber;
-            AccountBalance = initialDeposit;
+            Deposit(initialDeposit);
         }
 
         public void setAccountName(string name)
@@ -67,7 +67,7 @@ namespace CSharpUdemy
             else
             {
                 Console.WriteLine("Error.");
-                throw new InvalidValueException("Invalid Value. Please use \"y\" or \"n\"").Message();
+                throw new InvalidValueException("Invalid Value. Please use \"y\" or \"n\"");
             }
         }
         public void AccountInformation()
