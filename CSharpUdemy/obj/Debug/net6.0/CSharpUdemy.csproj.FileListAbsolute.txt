@@ -1,0 +1,15 @@
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\bin\Debug\net6.0\CSharpUdemy.exe
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\bin\Debug\net6.0\CSharpUdemy.deps.json
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\bin\Debug\net6.0\CSharpUdemy.runtimeconfig.json
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\bin\Debug\net6.0\CSharpUdemy.dll
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\bin\Debug\net6.0\CSharpUdemy.pdb
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.csproj.AssemblyReference.cache
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.AssemblyInfoInputs.cache
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.AssemblyInfo.cs
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.csproj.CoreCompileInputs.cache
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.dll
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\refint\CSharpUdemy.dll
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.pdb
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\CSharpUdemy.genruntimeconfig.cache
+C:\Users\wesleyd\source\repos\CSharpUdemyExercise\CSharpUdemy\obj\Debug\net6.0\ref\CSharpUdemy.dll
