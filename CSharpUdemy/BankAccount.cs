@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpUdemy.ErrorExceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,20 @@ namespace CSharpUdemy
         public double AccountBalance { get; private set; }
         public double WithdrawFee { get; private set; } = 5;
 
+        public BankAccount(int accountNumber, string name, double initialDeposit)
+        {
+            AccountName = name;
+            AccountNumber = accountNumber;
+            AccountBalance = initialDeposit;
+        }
+
         public void setAccountName(string name)
         {
             AccountName = name;
         }
-        public void setAccountNumber(int accountNumber) { 
-            if(AccountNumber == 0)
+        public void setAccountNumber(int accountNumber)
+        {
+            if (AccountNumber == 0)
             {
                 AccountNumber = accountNumber;
             }
@@ -30,7 +39,7 @@ namespace CSharpUdemy
 
         public void Withdraw(double withdrawValue)
         {
-            if(withdrawValue > 0)
+            if (withdrawValue > 0)
             {
                 AccountBalance -= withdrawValue + WithdrawFee;
             }
@@ -43,21 +52,22 @@ namespace CSharpUdemy
             }
             else { Console.WriteLine("Invalid value. Try again."); }
         }
-        public void InitialDeposit(char op)
+        public static double InitialDeposit(char op)
         {
             if (op == 'y')
             {
                 Console.Write("What's the value of your initial deposit? ");
                 double depositValue = double.Parse(Console.ReadLine());
-                Deposit(depositValue);
+                return depositValue;
             }
             else if (op == 'n')
             {
-                Deposit(0);
+                return 0;
             }
             else
             {
-                Console.WriteLine("Invalid option. Try again.");
+                Console.WriteLine("Error.");
+                throw new InvalidValueException("Invalid Value. Please use \"y\" or \"n\"").Message();
             }
         }
         public void AccountInformation()

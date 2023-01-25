@@ -1,22 +1,24 @@
 ﻿using CSharpUdemy;
 
-BankAccount firstAccount = new BankAccount();
-
 Console.Write("Enter de account number: ");
 int accountNumber = int.Parse(Console.ReadLine());
-firstAccount.setAccountNumber(accountNumber);
+
 Console.Write("Enter the name of the account's ownner: ");
 string accountOwnerName = Console.ReadLine();
-firstAccount.setAccountName(accountOwnerName);
-Console.WriteLine("There will be an initial deposit? Y/N");
+
+Console.Write("There will be an initial deposit? (Y/N) ");
 char initialDeposit = char.Parse(Console.ReadLine());
-firstAccount.InitialDeposit(initialDeposit);
+double initialDepositValue = BankAccount.InitialDeposit(initialDeposit);
+
 Console.WriteLine("");
+BankAccount firstAccount = new BankAccount(accountNumber, accountOwnerName, initialDepositValue);
 firstAccount.AccountInformation();
+
 Console.WriteLine("");
 Console.Write("Enter a deposit value: ");
 double depositValue = double.Parse(Console.ReadLine());
 firstAccount.Deposit(depositValue);
+Console.WriteLine("");
 firstAccount.AccountInformation();
 Console.WriteLine("");
 Console.Write("Enter a withdraw value: ");
